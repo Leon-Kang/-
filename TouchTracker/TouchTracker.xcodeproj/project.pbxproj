@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B52720F1C0824F00070CD93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B52720E1C0824F00070CD93 /* main.m */; };
+		6B5272121C0824F00070CD93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272111C0824F00070CD93 /* AppDelegate.m */; };
+		6B5272151C0824F00070CD93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272141C0824F00070CD93 /* ViewController.m */; };
+		6B5272181C0824F00070CD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5272161C0824F00070CD93 /* Main.storyboard */; };
+		6B52721A1C0824F00070CD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5272191C0824F00070CD93 /* Assets.xcassets */; };
+		6B52721D1C0824F00070CD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B52721B1C0824F00070CD93 /* LaunchScreen.storyboard */; };
+		6B5272261C0826010070CD93 /* KLLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272251C0826010070CD93 /* KLLine.m */; };
+		6B5272291C08266E0070CD93 /* KLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272281C08266E0070CD93 /* KLDrawView.m */; };
+		6B5272371C0828EF0070CD93 /* KLDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5272351C0828EF0070CD93 /* KLDrawViewController.m */; };
+		6B5272381C0828EF0070CD93 /* KLDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B5272361C0828EF0070CD93 /* KLDrawViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B52720A1C0824F00070CD93 /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B52720E1C0824F00070CD93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B5272101C0824F00070CD93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B5272111C0824F00070CD93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B5272131C0824F00070CD93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B5272141C0824F00070CD93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B5272171C0824F00070CD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5272191C0824F00070CD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B52721C1C0824F00070CD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B52721E1C0824F00070CD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5272241C0826010070CD93 /* KLLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLLine.h; sourceTree = "<group>"; };
+		6B5272251C0826010070CD93 /* KLLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLLine.m; sourceTree = "<group>"; };
+		6B5272271C08266E0070CD93 /* KLDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDrawView.h; sourceTree = "<group>"; };
+		6B5272281C08266E0070CD93 /* KLDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDrawView.m; sourceTree = "<group>"; };
+		6B5272341C0828EF0070CD93 /* KLDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDrawViewController.h; sourceTree = "<group>"; };
+		6B5272351C0828EF0070CD93 /* KLDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDrawViewController.m; sourceTree = "<group>"; };
+		6B5272361C0828EF0070CD93 /* KLDrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLDrawViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5272071C0824F00070CD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B5272011C0824F00070CD93 = {
+			isa = PBXGroup;
+			children = (
+				6B52720C1C0824F00070CD93 /* TouchTracker */,
+				6B52720B1C0824F00070CD93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B52720B1C0824F00070CD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B52720A1C0824F00070CD93 /* TouchTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B52720C1C0824F00070CD93 /* TouchTracker */ = {
+			isa = PBXGroup;
+			children = (
+				6B5272101C0824F00070CD93 /* AppDelegate.h */,
+				6B5272111C0824F00070CD93 /* AppDelegate.m */,
+				6B5272341C0828EF0070CD93 /* KLDrawViewController.h */,
+				6B5272351C0828EF0070CD93 /* KLDrawViewController.m */,
+				6B5272361C0828EF0070CD93 /* KLDrawViewController.xib */,
+				6B5272271C08266E0070CD93 /* KLDrawView.h */,
+				6B5272281C08266E0070CD93 /* KLDrawView.m */,
+				6B5272241C0826010070CD93 /* KLLine.h */,
+				6B5272251C0826010070CD93 /* KLLine.m */,
+				6B5272131C0824F00070CD93 /* ViewController.h */,
+				6B5272141C0824F00070CD93 /* ViewController.m */,
+				6B5272161C0824F00070CD93 /* Main.storyboard */,
+				6B5272191C0824F00070CD93 /* Assets.xcassets */,
+				6B52721B1C0824F00070CD93 /* LaunchScreen.storyboard */,
+				6B52721E1C0824F00070CD93 /* Info.plist */,
+				6B52720D1C0824F00070CD93 /* Supporting Files */,
+			);
+			path = TouchTracker;
+			sourceTree = "<group>";
+		};
+		6B52720D1C0824F00070CD93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B52720E1C0824F00070CD93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5272091C0824F00070CD93 /* TouchTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5272211C0824F00070CD93 /* Build configuration list for PBXNativeTarget "TouchTracker" */;
+			buildPhases = (
+				6B5272061C0824F00070CD93 /* Sources */,
+				6B5272071C0824F00070CD93 /* Frameworks */,
+				6B5272081C0824F00070CD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchTracker;
+			productName = TouchTracker;
+			productReference = 6B52720A1C0824F00070CD93 /* TouchTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5272021C0824F00070CD93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kl;
+				TargetAttributes = {
+					6B5272091C0824F00070CD93 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9LX3DSVSDD;
+					};
+				};
+			};
+			buildConfigurationList = 6B5272051C0824F00070CD93 /* Build configuration list for PBXProject "TouchTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5272011C0824F00070CD93;
+			productRefGroup = 6B52720B1C0824F00070CD93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5272091C0824F00070CD93 /* TouchTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5272081C0824F00070CD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B52721D1C0824F00070CD93 /* LaunchScreen.storyboard in Resources */,
+				6B5272381C0828EF0070CD93 /* KLDrawViewController.xib in Resources */,
+				6B52721A1C0824F00070CD93 /* Assets.xcassets in Resources */,
+				6B5272181C0824F00070CD93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5272061C0824F00070CD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5272151C0824F00070CD93 /* ViewController.m in Sources */,
+				6B5272371C0828EF0070CD93 /* KLDrawViewController.m in Sources */,
+				6B5272121C0824F00070CD93 /* AppDelegate.m in Sources */,
+				6B5272291C08266E0070CD93 /* KLDrawView.m in Sources */,
+				6B5272261C0826010070CD93 /* KLLine.m in Sources */,
+				6B52720F1C0824F00070CD93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B5272161C0824F00070CD93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5272171C0824F00070CD93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B52721B1C0824F00070CD93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B52721C1C0824F00070CD93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B52721F1C0824F00070CD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B5272201C0824F00070CD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B5272221C0824F00070CD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.TouchTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B5272231C0824F00070CD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kl.TouchTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5272051C0824F00070CD93 /* Build configuration list for PBXProject "TouchTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B52721F1C0824F00070CD93 /* Debug */,
+				6B5272201C0824F00070CD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5272211C0824F00070CD93 /* Build configuration list for PBXNativeTarget "TouchTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5272221C0824F00070CD93 /* Debug */,
+				6B5272231C0824F00070CD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5272021C0824F00070CD93 /* Project object */;
+}

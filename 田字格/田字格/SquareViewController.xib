@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SquareViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs6-oY-Lz2">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="awF-zC-7e1"/>
+                        <constraint firstAttribute="height" constant="75" id="xbb-TY-sV8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="awF-zC-7e1"/>
+                            <exclude reference="xbb-TY-sV8"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="awF-zC-7e1"/>
+                            <include reference="xbb-TY-sV8"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEd-xv-uAy">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="9I5-aD-8VA"/>
+                        <constraint firstAttribute="width" constant="75" id="HwB-vU-adz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="9I5-aD-8VA"/>
+                            <exclude reference="HwB-vU-adz"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="9I5-aD-8VA"/>
+                            <include reference="HwB-vU-adz"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68c-dy-e8v">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="LkN-DJ-zDa"/>
+                        <constraint firstAttribute="width" constant="75" id="hGN-ah-xsi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="LkN-DJ-zDa"/>
+                            <exclude reference="hGN-ah-xsi"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="LkN-DJ-zDa"/>
+                            <include reference="hGN-ah-xsi"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vlx-Pe-dbm">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="xaC-NI-4f2"/>
+                        <constraint firstAttribute="width" constant="75" id="yzX-Qp-wCr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="xaC-NI-4f2"/>
+                            <exclude reference="yzX-Qp-wCr"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="xaC-NI-4f2"/>
+                            <include reference="yzX-Qp-wCr"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flx-7s-qVZ">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="M1k-y5-hDt"/>
+                        <constraint firstAttribute="height" constant="75" id="lNI-R3-sNd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="M1k-y5-hDt"/>
+                            <exclude reference="lNI-R3-sNd"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="M1k-y5-hDt"/>
+                            <include reference="lNI-R3-sNd"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Si6-G1-2BR">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="18W-qS-zRo"/>
+                        <constraint firstAttribute="height" constant="75" id="tf1-HV-2Iw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="18W-qS-zRo"/>
+                            <exclude reference="tf1-HV-2Iw"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="18W-qS-zRo"/>
+                            <include reference="tf1-HV-2Iw"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAY-yI-qUy">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="Phv-Yy-LIl"/>
+                        <constraint firstAttribute="width" constant="75" id="Uky-lm-3ON"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Phv-Yy-LIl"/>
+                            <exclude reference="Uky-lm-3ON"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="Phv-Yy-LIl"/>
+                            <include reference="Uky-lm-3ON"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heY-cR-RdU">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="CLn-vc-oJl"/>
+                        <constraint firstAttribute="height" constant="75" id="kSq-q1-jMN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="CLn-vc-oJl"/>
+                            <exclude reference="kSq-q1-jMN"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="CLn-vc-oJl"/>
+                            <include reference="kSq-q1-jMN"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsT-Q2-79V">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="Dtf-YA-Nn3"/>
+                        <constraint firstAttribute="height" constant="75" id="Hr2-mV-uXl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" backgroundImage="1.jpg"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Dtf-YA-Nn3"/>
+                            <exclude reference="Hr2-mV-uXl"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="Dtf-YA-Nn3"/>
+                            <include reference="Hr2-mV-uXl"/>
+                        </mask>
+                    </variation>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="pEd-xv-uAy" firstAttribute="centerX" secondItem="68c-dy-e8v" secondAttribute="centerX" id="3Iz-Pf-M7S"/>
+                <constraint firstItem="68c-dy-e8v" firstAttribute="top" secondItem="pEd-xv-uAy" secondAttribute="bottom" constant="35" id="780-0f-Sa2"/>
+                <constraint firstItem="heY-cR-RdU" firstAttribute="centerX" secondItem="flx-7s-qVZ" secondAttribute="centerX" id="AxT-bi-U9T"/>
+                <constraint firstItem="heY-cR-RdU" firstAttribute="centerY" secondItem="Si6-G1-2BR" secondAttribute="centerY" id="CRg-Te-9eV"/>
+                <constraint firstItem="Fs6-oY-Lz2" firstAttribute="centerY" secondItem="68c-dy-e8v" secondAttribute="centerY" id="FRT-lz-Gco"/>
+                <constraint firstItem="flx-7s-qVZ" firstAttribute="leading" secondItem="68c-dy-e8v" secondAttribute="trailing" constant="35" id="Hu3-Mu-uOa"/>
+                <constraint firstItem="flx-7s-qVZ" firstAttribute="centerY" secondItem="68c-dy-e8v" secondAttribute="centerY" id="OYS-bi-MmS"/>
+                <constraint firstItem="Vlx-Pe-dbm" firstAttribute="centerX" secondItem="flx-7s-qVZ" secondAttribute="centerX" id="QK6-vr-4Xc"/>
+                <constraint firstItem="YAY-yI-qUy" firstAttribute="centerX" secondItem="Fs6-oY-Lz2" secondAttribute="centerX" id="RuU-oB-StN"/>
+                <constraint firstItem="68c-dy-e8v" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="S7M-LN-Njw"/>
+                <constraint firstItem="Si6-G1-2BR" firstAttribute="centerX" secondItem="68c-dy-e8v" secondAttribute="centerX" id="S8j-Jr-P4S"/>
+                <constraint firstItem="Si6-G1-2BR" firstAttribute="top" secondItem="68c-dy-e8v" secondAttribute="bottom" constant="35" id="Ww9-gH-wjG"/>
+                <constraint firstItem="68c-dy-e8v" firstAttribute="leading" secondItem="Fs6-oY-Lz2" secondAttribute="trailing" constant="35" id="ZbJ-15-jcn"/>
+                <constraint firstItem="68c-dy-e8v" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="c1K-bt-z2K"/>
+                <constraint firstItem="Vlx-Pe-dbm" firstAttribute="centerY" secondItem="pEd-xv-uAy" secondAttribute="centerY" id="f4t-ak-Ffd"/>
+                <constraint firstItem="YAY-yI-qUy" firstAttribute="centerY" secondItem="Si6-G1-2BR" secondAttribute="centerY" id="jHu-jH-gHS"/>
+                <constraint firstItem="LsT-Q2-79V" firstAttribute="centerY" secondItem="pEd-xv-uAy" secondAttribute="centerY" id="qtn-Ed-Si4"/>
+                <constraint firstItem="LsT-Q2-79V" firstAttribute="centerX" secondItem="Fs6-oY-Lz2" secondAttribute="centerX" id="rpx-Kd-9pF"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Fs6-oY-Lz2"/>
+                    <exclude reference="pEd-xv-uAy"/>
+                    <exclude reference="68c-dy-e8v"/>
+                    <exclude reference="Vlx-Pe-dbm"/>
+                    <exclude reference="flx-7s-qVZ"/>
+                    <exclude reference="Si6-G1-2BR"/>
+                    <exclude reference="YAY-yI-qUy"/>
+                    <exclude reference="heY-cR-RdU"/>
+                    <exclude reference="LsT-Q2-79V"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="780-0f-Sa2"/>
+                    <exclude reference="S7M-LN-Njw"/>
+                    <exclude reference="ZbJ-15-jcn"/>
+                    <exclude reference="c1K-bt-z2K"/>
+                    <exclude reference="FRT-lz-Gco"/>
+                    <exclude reference="qtn-Ed-Si4"/>
+                    <exclude reference="rpx-Kd-9pF"/>
+                    <exclude reference="S8j-Jr-P4S"/>
+                    <exclude reference="Ww9-gH-wjG"/>
+                    <exclude reference="QK6-vr-4Xc"/>
+                    <exclude reference="f4t-ak-Ffd"/>
+                    <exclude reference="RuU-oB-StN"/>
+                    <exclude reference="jHu-jH-gHS"/>
+                    <exclude reference="Hu3-Mu-uOa"/>
+                    <exclude reference="OYS-bi-MmS"/>
+                    <exclude reference="AxT-bi-U9T"/>
+                    <exclude reference="CRg-Te-9eV"/>
+                    <exclude reference="3Iz-Pf-M7S"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="subviews">
+                    <include reference="Fs6-oY-Lz2"/>
+                    <include reference="pEd-xv-uAy"/>
+                    <include reference="68c-dy-e8v"/>
+                    <include reference="Vlx-Pe-dbm"/>
+                    <include reference="flx-7s-qVZ"/>
+                    <include reference="Si6-G1-2BR"/>
+                    <include reference="YAY-yI-qUy"/>
+                    <include reference="heY-cR-RdU"/>
+                    <include reference="LsT-Q2-79V"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="780-0f-Sa2"/>
+                    <include reference="S7M-LN-Njw"/>
+                    <include reference="ZbJ-15-jcn"/>
+                    <include reference="c1K-bt-z2K"/>
+                    <include reference="FRT-lz-Gco"/>
+                    <include reference="qtn-Ed-Si4"/>
+                    <include reference="rpx-Kd-9pF"/>
+                    <include reference="S8j-Jr-P4S"/>
+                    <include reference="Ww9-gH-wjG"/>
+                    <include reference="QK6-vr-4Xc"/>
+                    <include reference="f4t-ak-Ffd"/>
+                    <include reference="RuU-oB-StN"/>
+                    <include reference="jHu-jH-gHS"/>
+                    <include reference="Hu3-Mu-uOa"/>
+                    <include reference="OYS-bi-MmS"/>
+                    <include reference="AxT-bi-U9T"/>
+                    <include reference="CRg-Te-9eV"/>
+                    <include reference="3Iz-Pf-M7S"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="427.5" y="347.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1.jpg" width="800" height="754"/>
+    </resources>
+</document>
