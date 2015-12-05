@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface BNRItem : NSObject
+@interface BNRItem : NSObject <NSCoding>
 
 + (instancetype)randomItem;
 

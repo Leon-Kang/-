@@ -109,6 +109,11 @@
     cameraViewController.delegate = self;
     self.item = selectedItem;
     
+    cameraViewController.actionBlock = ^(BNRItem *newItem)
+    {
+        
+    };
+    
     [self.navigationController pushViewController:cameraViewController animated:YES];
 }
 

@@ -56,7 +56,8 @@
                             <exclude reference="wNO-PI-2q1"/>
                         </mask>
                     </variation>
-                    <variation key="heightClass=regular">
+                    <variation key="heightClass=regular" misplaced="YES">
+                        <rect key="frame" x="105" y="101" width="213" height="31"/>
                         <mask key="constraints">
                             <include reference="wNO-PI-2q1"/>
                         </mask>
@@ -76,7 +77,7 @@
                         </mask>
                     </variation>
                     <variation key="heightClass=regular" misplaced="YES">
-                        <rect key="frame" x="105" y="150" width="213" height="32"/>
+                        <rect key="frame" x="105" y="150" width="213" height="30"/>
                         <mask key="constraints">
                             <include reference="xg6-rZ-uJ6"/>
                         </mask>
@@ -133,7 +134,7 @@
                     <rect key="frame" x="17" y="278" width="341" height="326"/>
                     <animations/>
                     <variation key="heightClass=regular" misplaced="YES">
-                        <rect key="frame" x="8" y="264" width="359" height="353"/>
+                        <rect key="frame" x="8" y="264.5" width="359" height="352.5"/>
                     </variation>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbO-bs-496">
@@ -153,7 +154,7 @@
                         </mask>
                     </variation>
                     <variation key="heightClass=regular" misplaced="YES">
-                        <rect key="frame" x="105" y="235" width="180" height="33"/>
+                        <rect key="frame" x="105" y="235.5" width="180" height="33"/>
                         <mask key="constraints">
                             <include reference="Rnz-dI-qL0"/>
                             <include reference="cTp-Y7-c1A"/>
@@ -197,7 +198,7 @@
                         </mask>
                     </variation>
                     <variation key="heightClass=regular" misplaced="YES">
-                        <rect key="frame" x="104" y="201" width="214" height="26"/>
+                        <rect key="frame" x="104" y="201" width="214" height="28"/>
                         <mask key="constraints">
                             <include reference="Lwg-wN-wfL"/>
                         </mask>

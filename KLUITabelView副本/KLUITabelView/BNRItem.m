@@ -95,4 +95,27 @@
     NSLog(@"Destroyed: %@", self);
 }
 
+#pragma mark 固化信息
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:self.itemName forKey:@"itemName"];
+    [aCoder encodeObject:self.serialNumber forKey:@"serialNumber"];
+    [aCoder encodeObject:self.dateCreated forKey:@"dateCreated"];
+    [aCoder encodeObject:self.itemKey forKey:@"itemKey"];
+    [aCoder encodeInt:self.valueInDollars forKey:@"valueInDollars"];
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+    if (self) {
+        self.itemName = [aDecoder decodeObjectForKey:@"itemName"];
+        self.serialNumber = [aDecoder decodeObjectForKey:@"serialNumber"];
+        self.dateCreated = [aDecoder decodeObjectForKey:@"dateCreated"];
+        self.itemKey = [aDecoder decodeObjectForKey:@"itemKey"];
+        self.valueInDollars = [aDecoder decodeIntForKey:@"valueInDollars"];
+    }
+    return self;
+}
+
 @end

@@ -38,6 +38,7 @@
 
 
 
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
@@ -63,6 +64,11 @@
     
     self.imageView.image = imageToDisplay;
 
+    self.items.itemName = self.nameValue.text;
+    self.items.serialNumber = self.serialValue.text;
+    self.items.valueInDollars = (int)self.value.text;
+    self.actionBlock(self.items);
+    
 }
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

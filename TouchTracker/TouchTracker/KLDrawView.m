@@ -61,6 +61,7 @@
 
 
 - (void)drawRect:(CGRect)rect {
+    
     [[UIColor blackColor] set];
     
     for (KLLine *line in self.finishedLines) {
@@ -115,6 +116,7 @@
         }else if (gr.state == UIGestureRecognizerStateEnded) {
             self.selectedLine = nil;
         }
+        
         [self setNeedsDisplay];
     }
 }
@@ -142,6 +144,7 @@
         self.selectedLine.begin = begin;
         self.selectedLine.end = end;
         
+        [self.linesInProgress removeAllObjects];
         // 重画视图
         [self setNeedsDisplay];
         
@@ -295,9 +298,11 @@
         NSValue *key = [NSValue valueWithNonretainedObject:t];
         KLLine *line = self.linesInProgress[key];
         
-        [self.finishedLines addObject:line];
-        [self.linesInProgress removeObjectForKey:key];
-        
+        if (line) {
+            [self.finishedLines addObject:line];
+            [self.linesInProgress removeObjectForKey:key];
+        }
+      
     }
 //    [self.finishedLines addObject:self.currentLine];
 //    self.currentLine = nil;

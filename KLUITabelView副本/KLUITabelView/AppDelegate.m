@@ -10,6 +10,10 @@
 #import "KLUITableViewController.h"
 #import "KLUINavigationeController.h"
 #import "ViewController.h"
+#import "KLItemStore.h"
+
+NSString * const KLItemValuePrefsKey = @"NextItemValue";
+NSString * const KLItemNamePrefsKey = @"NextItemName";
 
 @interface AppDelegate ()
 
@@ -17,6 +21,12 @@
 
 @implementation AppDelegate
 
++ (void)initialize {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSDictionary *factorySetting = @{KLItemValuePrefsKey:@75,
+                                     KLItemNamePrefsKey:@"Coffee Cup"};
+    [defaults registerDefaults:factorySetting];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
@@ -29,6 +39,9 @@
     view.view.backgroundColor = [UIColor blackColor];
     
     KLUINavigationeController *navController = [[KLUINavigationeController alloc] initWithRootViewController:view];
+    
+    
+    
     
     
     
@@ -47,6 +60,13 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    BOOL success = [[KLItemStore sharedStore] savaChanges];
+    if (success) {
+        NSLog(@"Save all of the KLItems");
+    } else {
+        NSLog(@"Could not save any of the KLItems");
+    }
+    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {

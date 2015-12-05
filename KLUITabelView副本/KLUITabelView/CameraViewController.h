@@ -17,6 +17,6 @@
 
 @property (nonatomic, assign) id<ValueDelegate> delegate;
 
-
+@property (nonatomic, copy) void (^actionBlock)(BNRItem *);
 
 @end

@@ -17,4 +17,5 @@
 - (BNRItem *)createItem;
 - (void)removeItem:(BNRItem *)item;
 
+- (BOOL)savaChanges;
 @end
