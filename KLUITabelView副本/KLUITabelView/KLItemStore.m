@@ -89,9 +89,6 @@
     return [documentDirectory stringByAppendingPathComponent:@"items.archive"];
 }
 
-
-
-
 - (BOOL)savaChanges {
     NSString *path = [self itemArchivePath];
     
