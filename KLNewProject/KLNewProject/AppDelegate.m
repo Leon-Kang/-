@@ -27,9 +27,9 @@
     
     
     
-//    CGRect bounds =  self.window.bounds;
-//    bounds = CGRectMake(50, 50, 100, 100);
-//    self.window.bounds = bounds;
+    CGRect bounds =  self.window.bounds;
+   bounds = CGRectMake(50, 50, 100, 100);
+    self.window.bounds = bounds;
     
 //    self.window.backgroundColor = [UIColor greenColor];
 
