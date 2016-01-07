@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B1429BF1C3E8A4600750082 /* PassValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValueDelegate.h; sourceTree = "<group>"; };
 		6B66D3271C3BDEA200D4092F /* 页面传值-OC篇.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "页面传值-OC篇.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B66D32B1C3BDEA200D4092F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B66D32D1C3BDEA200D4092F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 				6B66D3461C3BF8E600D4092F /* KLAViewController.h */,
 				6B66D3471C3BF8E600D4092F /* KLAViewController.m */,
 				6B66D3481C3BF8E600D4092F /* KLAViewController.xib */,
+				6B1429BF1C3E8A4600750082 /* PassValueDelegate.h */,
 				6B66D3361C3BDEA200D4092F /* Assets.xcassets */,
 				6B66D3381C3BDEA200D4092F /* LaunchScreen.storyboard */,
 				6B66D33B1C3BDEA200D4092F /* Info.plist */,
@@ -318,6 +320,7 @@
 				6B66D3401C3BDEA200D4092F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

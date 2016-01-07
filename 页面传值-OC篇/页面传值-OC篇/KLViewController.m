@@ -8,11 +8,12 @@
 
 #import "KLViewController.h"
 #import "KLAViewController.h"
+#import "PassValueDelegate.h"
 
-@interface KLViewController () <UITabBarControllerDelegate>
+@interface KLViewController () <PassValueDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
-
+@property (weak, nonatomic) IBOutlet UILabel *valueLabel;
 
 @end
 
@@ -20,20 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-
-//    NSDictionary *dic = [[NSDictionary alloc] init];
-//    NSDictionary *dic2 = [[NSDictionary alloc] init];
-//    NSArray *arr = [[NSArray alloc] init];
-//    
-//    arr = @[dic2];
-//    
-//    dic = @{@"arr": arr};
-//    
-//    NSArray *arr2 = [dic objectForKey:@"arr"];
-//    NSDictionary *dic3 = arr2[0];
     
-
 }
 
 
@@ -48,12 +36,6 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
 - (IBAction)buttonActive:(id)sender {
     KLAViewController *aViewC = [[KLAViewController alloc] init];
     // 拿到block传的值
@@ -62,23 +44,18 @@
         self.textLabel.text = text;
     }];
     
+    aViewC.delegate = self;
+    
     [self presentViewController:aViewC animated:YES completion:nil
      ];
     
 }
 
-
-
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - PassValueDelegate
+- (void)passValue:(NSString *)value
+{
+    self.valueLabel.text = value;
 }
-*/
+
 
 @end

@@ -11,6 +11,7 @@
 @interface KLAViewController () <UITabBarControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *myTextField;
+@property (weak, nonatomic) IBOutlet UITextField *valueTextField;
 
 @end
 
@@ -26,6 +27,7 @@
 
     // 监听textField输入
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textChange:) name:UITextFieldTextDidChangeNotification object:self.myTextField];
+    
     
 }
 
@@ -66,6 +68,7 @@
 - (IBAction)buttonAction:(id)sender {
     self.returnTextBlock(self.myTextField.text);
     
+    [self.delegate passValue:self.valueTextField.text];
     [self dismissViewControllerAnimated:YES completion:nil];
     
 }

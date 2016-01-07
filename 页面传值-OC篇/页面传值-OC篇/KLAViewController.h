@@ -7,13 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PassValueDelegate.h"
 
 typedef void(^returnTextBlock)(NSString *text);
 
+
 @interface KLAViewController : UIViewController
+
+@property (nonatomic, strong) id<PassValueDelegate> delegate;
 
 @property (nonatomic, copy) returnTextBlock returnTextBlock;
 
 - (void)returnText:(returnTextBlock)textBlock;
+
+
 
 @end

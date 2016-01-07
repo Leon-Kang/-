@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KLViewController">
             <connections>
                 <outlet property="textLabel" destination="I1v-NQ-pxQ" id="RLy-K5-qbk"/>
+                <outlet property="valueLabel" destination="yjd-ic-nK7" id="SPj-Bi-btv"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,11 +17,21 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nil" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1v-NQ-pxQ">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1v-NQ-pxQ">
                     <rect key="frame" x="62" y="139" width="476" height="42"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="42" id="EBJ-nc-TOg"/>
                         <constraint firstAttribute="width" constant="476" id="FLI-xB-7Gv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjd-ic-nK7">
+                    <rect key="frame" x="62" y="207" width="476" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="A3I-xf-daG"/>
+                        <constraint firstAttribute="width" constant="476" id="uhO-kb-0bi"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -41,9 +52,11 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="WZF-0S-Gmu" secondAttribute="bottom" constant="216" id="1bn-Rb-KwB"/>
+                <constraint firstItem="yjd-ic-nK7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FGu-TR-XfP"/>
                 <constraint firstItem="I1v-NQ-pxQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="139" id="GIL-Sg-QIy"/>
                 <constraint firstItem="WZF-0S-Gmu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KvX-s9-Kgo"/>
                 <constraint firstItem="I1v-NQ-pxQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bbC-vZ-Gaq"/>
+                <constraint firstItem="yjd-ic-nK7" firstAttribute="top" secondItem="I1v-NQ-pxQ" secondAttribute="bottom" constant="26" id="k7w-dG-Jam"/>
             </constraints>
         </view>
     </objects>
