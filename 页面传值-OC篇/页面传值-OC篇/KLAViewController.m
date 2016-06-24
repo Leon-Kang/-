@@ -28,7 +28,9 @@
     // 监听textField输入
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textChange:) name:UITextFieldTextDidChangeNotification object:self.myTextField];
     
-    
+    UITapGestureRecognizer *tapGr = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped)];
+    tapGr.cancelsTouchesInView = NO;
+    [self.view addGestureRecognizer:tapGr];
 }
 
 
@@ -73,6 +75,9 @@
     
 }
 
-
+- (void)viewTapped {
+    [self.myTextField resignFirstResponder];
+    [self.valueTextField resignFirstResponder];
+}
 
 @end
